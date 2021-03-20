@@ -18,5 +18,8 @@ class Scorer
         rectMode(CENTER);
         fill(60);
         rect(pos.x, pos.y, this.w, this.h);
+        fill(150);
+        textAlign(CENTER);
+        text(this.value, this.body.position.x, this.body.position.y - 50);
     }
 }
