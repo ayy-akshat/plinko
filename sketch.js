@@ -90,6 +90,8 @@ function draw() {
   textSize(20);
   text("Score : " + score, 50, 30);
   text("Attempts Left : " + attemptsLeft, 50, 55);
+  textAlign(CENTER);
+  text("Click to drop a new ball.", width/2, 30);
 
   for (var i = 0; i < plinkos.length; i++)
   {
